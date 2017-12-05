@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.toshiba_pc.footballscoreapp.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/a"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="2dp"
+            android:text="alhelal" />
+
+        <TextView
+            android:id="@+id/score1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:text="Goals" />
+
+        <TextView
+            android:id="@+id/goal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/nred1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:text="Red card" />
+
+        <TextView
+            android:id="@+id/red1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/nf1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:text="Fouls" />
+
+        <TextView
+            android:id="@+id/f1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/bgoal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="Goals"
+            android:onClick="addforteam1"/>
+
+        <Button
+            android:id="@+id/bred1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="Red cards"
+            android:onClick="addcard1"/>
+
+        <Button
+            android:id="@+id/bfoal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="fouls"
+            android:onClick="addfoul"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="reset"
+
+        android:text="reset" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        tools:context="com.example.toshiba_pc.footballscoreapp.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="2dp"
+            android:text="alshabab" />
+
+        <TextView
+            android:id="@+id/score2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:text="Goals" />
+
+        <TextView
+            android:id="@+id/goal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+
+            android:padding="4dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/nred2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:text="Red card" />
+
+        <TextView
+            android:id="@+id/red2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:text="0" />
+
+        <TextView
+            android:id="@+id/nf2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:text="Fouls" />
+
+        <TextView
+            android:id="@+id/f2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_margin="6dp"
+            android:padding="4dp"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/bgoal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="Goals"
+            android:onClick="addforteam2"/>
+
+        <Button
+            android:id="@+id/bred2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="Red cards"
+            android:onClick="addcard2"/>
+
+        <Button
+            android:id="@+id/bfoal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:text="fouls"
+            android:onClick="addfoul2"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+    </RelativeLayout>
+
+
+</LinearLayout>
